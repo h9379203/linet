@@ -1,0 +1,13 @@
+language: cpp
+compiler:
+  - g++
+  - clang++
+os:
+  - linux
+script: make clean && make all
+notifications:
+  email:
+    recipients:
+      - h9379203@gmail.com
+    on_success: change
+    on_failure: always

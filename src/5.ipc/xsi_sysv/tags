@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COPY_RMTAB	sysv_msg_regex.c	24;"	d	file:
+DEFAULT_REGEX_STR	sysv_msg_regex.c	22;"	d	file:
+MAX_EXPR_SUB_MATCH	sysv_msg_regex.c	21;"	d	file:
+MAX_SEM	lib_sysv_sem.c	16;"	d	file:
+SZ_QUEUE	sysv_msg.c	17;"	d	file:
+SZ_QUEUE	sysv_msg_regex.c	19;"	d	file:
+SZ_SHM_SEGMENT	sysv_shm.c	19;"	d	file:
+_GNU_SOURCE	sysv_msg_info.c	7;"	d	file:
+_GNU_SOURCE	sysv_sem.c	7;"	d	file:
+_GNU_SOURCE	sysv_sem_info.c	7;"	d	file:
+_GNU_SOURCE	sysv_shm.c	7;"	d	file:
+func	sysv_sem_graph.c	/^	int	(*func)();$/;"	m	struct:funclist	file:
+funclist	sysv_sem_graph.c	/^struct funclist {$/;"	s	file:
+funclist	sysv_sem_graph.c	/^} funclist[] = { $/;"	v	typeref:struct:funclist
+handle_criticalsect	sysv_sem.c	/^int handle_criticalsect(int sem_id, int idx_child)$/;"	f
+handle_criticalsect	sysv_sem_waitforzero.c	/^int handle_criticalsect(int sem_id, int idx_child)$/;"	f
+handle_waitforzero	sysv_sem_waitforzero.c	/^int handle_waitforzero(int sem_id)$/;"	f
+idx	sysv_sem_graph.c	/^	int	idx;$/;"	m	struct:funclist	file:
+main	sysv_msg.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_msg_info.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_msg_regex.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_sem.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_sem_counting.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_sem_graph.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_sem_info.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_sem_waitforzero.c	/^int main(int argc, char *argv[])$/;"	f
+main	sysv_shm.c	/^int main()$/;"	f
+max_child	sysv_sem_counting.c	/^const int	max_child =	30;$/;"	v
+max_child	sysv_sem_graph.c	/^const int	max_child =	5;$/;"	v
+mq_buf	sysv_msg.c	/^struct mq_buf {$/;"	s	file:
+mq_buf	sysv_msg_regex.c	/^struct mq_buf {$/;"	s	file:
+msg_id	sysv_msg.c	/^int msg_id;$/;"	v
+msg_id	sysv_msg_regex.c	/^int msg_id;$/;"	v
+mtext	sysv_msg.c	/^	char mtext[SZ_QUEUE];$/;"	m	struct:mq_buf	file:
+mtext	sysv_msg_regex.c	/^	char mtext[SZ_QUEUE];$/;"	m	struct:mq_buf	file:
+mtype	sysv_msg.c	/^	long mtype;$/;"	m	struct:mq_buf	file:
+mtype	sysv_msg_regex.c	/^	long mtype;$/;"	m	struct:mq_buf	file:
+print_mq_ds	sysv_msg_info.c	/^void print_mq_ds(struct msqid_ds *ds)$/;"	f
+print_mq_info	sysv_msg_info.c	/^void print_mq_info(struct msginfo *info)$/;"	f
+proc_a	sysv_sem_graph.c	/^int proc_a() {$/;"	f
+proc_b	sysv_sem_graph.c	/^int proc_b() {$/;"	f
+proc_c	sysv_sem_graph.c	/^int proc_c() {$/;"	f
+proc_d	sysv_sem_graph.c	/^int proc_d() {$/;"	f
+proc_e	sysv_sem_graph.c	/^int proc_e() {$/;"	f
+process_child	sysv_sem_counting.c	/^int process_child(int i) {$/;"	f
+sem_id	sysv_sem_graph.c	/^int sem_id;$/;"	v
+start_msq_client	sysv_msg_regex.c	/^int start_msq_client(long mtype)$/;"	f
+start_msq_receiver	sysv_msg.c	/^int start_msq_receiver(long mtype)$/;"	f
+start_msq_sender	sysv_msg.c	/^int start_msq_sender(char *srcfile)$/;"	f
+start_msq_server	sysv_msg_regex.c	/^int start_msq_server(char *srcfile)$/;"	f
+sysv_msgget	lib_sysv_msg.c	/^int sysv_msgget(char *tok, key_t msg_fixkey, int user_mode)$/;"	f
+sysv_msgrm	lib_sysv_msg.c	/^int sysv_msgrm(int msg_id)$/;"	f
+sysv_semget	lib_sysv_sem.c	/^int sysv_semget(char *tok, key_t sem_fixkey, int n_sem, int sem_value, int user_mode)$/;"	f
+sysv_sempost	lib_sysv_sem.c	/^int sysv_sempost(int sem_id, int sem_idx)$/;"	f
+sysv_semrm	lib_sysv_sem.c	/^int sysv_semrm(int sem_id)$/;"	f
+sysv_semval	lib_sysv_sem.c	/^int sysv_semval(int sem_id, int sem_idx)$/;"	f
+sysv_semwait	lib_sysv_sem.c	/^int sysv_semwait(int sem_id, int sem_idx)$/;"	f
+sysv_semwait_timeo	lib_sysv_sem.c	/^int sysv_semwait_timeo(int sem_id, int sem_idx, struct timespec *ts)$/;"	f
+sysv_semzwait	lib_sysv_sem.c	/^int sysv_semzwait(int sem_id, int sem_idx)$/;"	f
+sysv_shmget	lib_sysv_shm.c	/^int sysv_shmget(void **ret, char *tok, key_t shm_fixkey, int size, int user_mode)$/;"	f
+sysv_shmrm	lib_sysv_shm.c	/^int sysv_shmrm(int shm_id)$/;"	f
